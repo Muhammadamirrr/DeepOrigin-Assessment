@@ -29,7 +29,21 @@ This project is a task scheduler application built using React TypeScript for th
 
 * Clone the repository.
 
-## Front-end Setup
+## Docker Setup:
+* Build
+    ``` docker compose build```
+
+* Up:
+
+    ```docker compose up```
+    
+* Frontend and Backend will start on:
+    [Frontend Link](http://localhost)
+    [Backend Link](http://localhost:5000)
+
+## Local Setup:
+
+#### Front-end Setup
 
 * Switch to frontend directory using
     ``` cd frontend```
@@ -44,9 +58,9 @@ This project is a task scheduler application built using React TypeScript for th
 
 * front end start on:
  
-    [text](http://localhost:5173/)
+    [Frontend Link](http://localhost:5173/)
 
-## Back-end Setup
+#### Back-end Setup
 
  Switch to backend directory using
     ``` cd backend```
@@ -61,7 +75,7 @@ This project is a task scheduler application built using React TypeScript for th
 
 * Access the application in your browser.
  
-    [text](http://localhost:5000)
+    [Backend Link](http://localhost:5000)
 
 ## API endpoints:
 
