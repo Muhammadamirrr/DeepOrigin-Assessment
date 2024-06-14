@@ -9,6 +9,7 @@ This project is a task scheduler application built using React TypeScript for th
 * Users can enter recurring tasks with specified intervals or one-time tasks with a specific date and time.
 * Tasks are initially marked as pending upon user entry.
 * Task scheduler manages a queue (array) of tasks to be executed.
+* When task is added to db the calander invite of that task is sent to the user.
 * When a task is added to the queue, its status changes to queued.
 * As the time for a task approaches, notification emails are sent to the respective users.
 * Upon successful email delivery, the task status is updated to executed.
